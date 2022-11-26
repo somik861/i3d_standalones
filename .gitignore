@@ -1,0 +1,11 @@
+# build folders
+build*
+
+# vscode
+**/.vscode
+
+# python
+**/__pycache__
+
+# mypy
+**/.mypy_cache

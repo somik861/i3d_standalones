@@ -1,5 +1,5 @@
 {
-    "name": "i3dlib_standalones",
+    "name": "i3dlib-standalones",
     "version-string": "0.0.1",
     "dependencies": [
         "openblas",
