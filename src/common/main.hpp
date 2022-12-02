@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
 
 	i3d::Image3d<i3d::GRAY16> img(argv[1]);
 
-    CODE;
+	CODE;
 
 	std::string out_name = argv[2];
 	add_ext(out_name);
