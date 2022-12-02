@@ -73,8 +73,8 @@ endif(WIN32)
 find_package(RXSpencer CONFIG REQUIRED)
 set(LIBS ${LIBS} rxspencer)
 
-find_library(I3DCORE i3dcore PATH_SUFFIXES ".a" REQUIRED)
-find_library(I3DALGO i3dalgo PATH_SUFFIXES ".a" REQUIRED)
+find_library(I3DCORE libi3dcore.a REQUIRED)
+find_library(I3DALGO libi3dalgo.a REQUIRED)
 
 set(LIBS ${I3DCORE} ${I3DALGO} ${LIBS})
 
