@@ -22,6 +22,11 @@ std::size_t to_size_t(T v) {
 	return to<std::size_t>(v);
 }
 
+template <typename T>
+float to_float(T v) {
+	return to<float>(v);
+}
+
 inline void add_ext(std::string& s) {
 	if (!s.ends_with(".tif"))
 		s.append(".tif");
